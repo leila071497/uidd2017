@@ -80,6 +80,7 @@ body{
     width: 200px;
    position: fixed;
 
+
 }
 
 p{
@@ -90,23 +91,26 @@ p{
   float: left;
   position: relative;
   left: 5px;
-  font-size: 20px;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
 h1{
-  font-family: Monospace;
-  font-size: 70px;
+  font-family: century gothic;
+  font-size: 80px;
   padding: 1px;
   color: white;
   margin: 5px;
+  letter-spacing: 8px;
+text-shadow: 3px 2px black;
 }
 .title1{
-width: 300px;
+width: 400px;
   padding: 100px;
   float: right;
   position: relative;
-  right: 1000px;
-  top: 100px;
+  right: 900px;
+  top: 200px;
 }
 
 .hand{

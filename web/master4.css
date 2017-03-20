@@ -65,7 +65,7 @@ img {
 h{
   text-decoration: underline;
    text-align: center;
-
+font-family: century gothic;
   color: white;
       font-size: 100px;
   position: absolute;;
@@ -89,7 +89,7 @@ p{
     width: 100%;
     height: 468.43px;
 
-    background-image: url(https://lh3.googleusercontent.com/zkftTM0rLlYJip8CXg78QKevE89WMijnjtvsfz_nIuTNhM03-RPBOZsIzmesDznUEYKZbMWewkSdXT-UOn9zfn0TbwAJlwxSOfbUsJ9hjt_r7Abr0eQmIvq8EC3udebNgi5aQXTGiVtTMP7sac7kI2oW-XMFvveh3V4bSptzdJayZstVfYR_J8m9jd45sa3_H1zdqy7aGlL_lHOaqUdmVupqNksrBhQ23gzHibKHoBlNa3YIpENcGEzmvEZFqCDZyga3-PkPQl8BpA4_oWnzZAoKY5vmjAEayOxmjkUsNdZp0imgY9UrYqHiiZDfrUTOQzxz7mTfBash9wBYJdTBA7mOodZgsKFqnxvDB56TArjxHy0MLgSBeCTjJBD9MY6YU642ZcB0tkGluHFPwI1d8zYdoAD1cmW66dNFEcs8HBmU1Hszb71Om4INyHTG1O5qbYf4JrXq2FTZS3HAyNzELVJR_EQdxX005hKzTvEQEF9J-jxedYvYN3qR_dy9HhFV7pzMID2-tgveeRVT9ScD0Qacz0qhICxXUBQkjJVLTrPenIjJYYSPAVHoAG2YTwKvpC4Z5006N0fQObhL_ua_5kEd8N8fnDJfbhNv8-Fyru04QPzC7W4v=w1200-h800-no)center no-repeat;
+    background-image: url(https://lh3.googleusercontent.com/tY865xxn7EZtis6WiXdX5Vwc4f81LB3EDvBIbL9lTfnsjxcKluD9LJF4lk9VI0GhXM1MDiEwt6sMUWUUGVeTRxxD5734lUjSlt8kI0y5-AXJty8XuIkCU8XyHF__iCdynBnp771if2BlLyKpodI1sUbysHY8S8m7FbclsjHT3k2XMv1YyD9tvOiJM6OjUy5Z6Rzc_KddddCLwBRwBmV8_UsxaVVXPYy6rkO17wpZDv6Rcc5bfh914CdNLBX7fcF9DvMh-0u-V46btX4qP4GxtkFUiLFBbeENcHCsZIh8T0obCR5zcxergfmhSHqdnZxegM449WcEzTSwdWEOwj5be_5TBfmjxDL1Og8QJaq8Mrh1bWYjtn2GudbCBscTz9f-iK1BSXMFgNPngCdCv3OX1fsqCpaNQ8c_kIdmqv80JGlOAjagTRAFo8VP3DxlihhQjpPEvgFWUIPry_aq1GtZGTpFEo_Esx1JWll8Jc3siyE6oOJUBlRYvfWMR0zmOC2ba8-llnhgJcGWHM5RyfeuGQa1ygWRADPjbHOQFAEN0mUdCiXILe1N_icOKYfkPPZHvIEcMaaG4hZaS-It7N4jgNJYlgjFf18nLyHafBSFbFaF2r_meIS6=w1369-h514-no)center no-repeat;
 background-size: cover;
 }
 #section2 {
@@ -97,19 +97,19 @@ background-size: cover;
   height: 250px;
    text-align: center;
   width: 100%;
-
-  font-family: century gothic;
+font-family: century gothic;
   color: white;
   top: 60%;
   position: relative;
+  padding: 3px;
 }
 
 p1{
    text-align: center;
   color: white;
-      font-size: 20px;
-  padding: 20px;
-  margin: 10px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 50px;
   position: relative;
   top: 50px;
    line-height: 1.5;
