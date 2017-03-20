@@ -1,100 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+  position: relative;
+
+}
+
 #myProgress {
     width: 40%;
     background-color: white;
     position: relative;
 }
 #myBar {
-    width: 1%;
+    width: 20%;
     height: 30px;
     background-color: #3BB69F;
     border-radius: 20px;
     position: absolute;
-    left: 50%;
+    left: 90%;
       border: 1px solid grey
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+top: 250px;
 }
 
-.slider_container {
-    margin: 30px auto;
-    width: 400px;
-    height: 280px;
-    position: relative;
-    
-    border-color: #fff;
-    border-bottom-width: 100px;
-    background-color: #f5f5f5;
-    box-shadow: #666 0 0 5px;
+button{
+  position: absolute;
+  top: 400px;
+  left: 45%;
+  background-color:#3BB69F;
+  height:30px;
+  color: white;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+    border: 2px solid #3BB69F;
+    font-family: century gothic;
 }
 
-.slider_container div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    filter: alpha(opacity=0);
+
+button:hover {
+    background-color: white;
+    color: #3BB69F;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+
 }
 
-.slider_container div {
-    -webkit-animation: round 25s linear infinite;
-            animation: round 25s linear infinite;
+p{
+  position: absolute;
+  top: 350px;
+  left: 45%;
+}
+.hi {
+    width: 130px;
+    height: 200px;
+    background-image: url("https://lh3.googleusercontent.com/gfG-L6HmkVY7SW-Q2fyAhS89hUFLnAtVkA-7ppJHBDKfVQVOQOOOvOIbBjZUOhSBlEDXzLvVnSCsZDYAxOVLacvHAXZ3F-cbC0KpMi-ojyp16D5mqx4zXsvu0tKMtpYqsZttSHu_nwbOVgi7zpjJorBuZnDmaR0HHVEMvRbUn_3FTGRP62cU-uSQSWaIAXfqMlNvTGIpEPbVGsrEPvGyfONOiWWRn-L_iwUbLLYV48CbvEJDj9jukAk2uNBxtCtSEgeFcrsCTbTMIqnKr22aDrSVJKOEAxT4JqP3_4k-irKfWvXc_s4unFl4ETs6-b9TQuZ8etxLjiWoVIJloxOOey-zza5jGc0r6Az9cu3X_geSr3cmuzfHoqhE5DTXLYkVgKOl-AYIm1i1nLq6XhffTCjwg8ZCVVfrHAchm_XoVvvKRrmwSvXlxx2Fg5nPY515uqIR26skE_8HeTQSuWepmFnOITQjYcfSx6pXDoMih5l5lafY8jltFkV7r4yZH8scu39DXIfTwO1yuiQY0ZJ2JXp7Brru3jV3z775w76LKNtUDjDYl8ArGdDtb9hpZ2UArfth2Vd4tGWrkwGokCAy45PkurG3KkSZcbPgLBWX7ILbnsm2W4OV=w960-h161-no") ;
+                -webkit-animation: play 2s steps(6) infinite alternate;
+                        animation: play 2s steps(6) infinite alternate;
+   position:absolute;
+   left: 43%;
+
 }
 
-@-webkit-keyframes round {
-    4% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        /* 0 - 1秒 淡入*/
-    }
-    20% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        /* 1- 5秒靜止*/
-    }
-    24% {
-        opacity: 0;
-        filter: alpha(opacity=0);
-        /* 5-6秒淡出*/
-    }
-}
-@keyframes round {
-    4% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        /* 0 - 1秒 淡入*/
-    }
-    20% {
-        opacity: 1;
-        filter: alpha(opacity=100);
-        /* 1- 5秒靜止*/
-    }
-    24% {
-        opacity: 0;
-        filter: alpha(opacity=0);
-        /* 5-6秒淡出*/
-    }
+
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -4800px; }
 }
 
-.slider_container div:nth-child(5) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-}
-
-.slider_container div:nth-child(4) {
-    -webkit-animation-delay: 5s;
-            animation-delay: 5s;
-}
-
-.slider_container div:nth-child(3) {
-    -webkit-animation-delay: 10s;
-            animation-delay: 10s;
-}
-
-.slider_container div:nth-child(2) {
-    -webkit-animation-delay: 15s;
-            animation-delay: 15s;
-}
-
-.slider_container div:nth-child(1) {
-    -webkit-animation-delay: 20s;
-            animation-delay: 20s;
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -4800px; }
 }
