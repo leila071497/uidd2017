@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.head{
+  width: 100%;
+    text-align: center;
+
+}
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  position: absolute;
+
+}
+
+h{
+  text-decoration: underline;
+   text-align: center;
+
+  color: white;
+      font-size: 100px;
+  position: absolute;;
+top: 15%;
+left: 40%;
+}
+
+p{
+   text-align: center;
+  color: white;
+      font-size: 30px;
+  position: absolute;;
+  padding: 5px;
+  top: 35%;
+  left: 38%;
+  font-family: Brush Script MT;
+}
+
+.section1{
+   position: relative;
+    width: 100%;
+    height: 468.43px;
+
+    background-image: url(https://lh3.googleusercontent.com/zkftTM0rLlYJip8CXg78QKevE89WMijnjtvsfz_nIuTNhM03-RPBOZsIzmesDznUEYKZbMWewkSdXT-UOn9zfn0TbwAJlwxSOfbUsJ9hjt_r7Abr0eQmIvq8EC3udebNgi5aQXTGiVtTMP7sac7kI2oW-XMFvveh3V4bSptzdJayZstVfYR_J8m9jd45sa3_H1zdqy7aGlL_lHOaqUdmVupqNksrBhQ23gzHibKHoBlNa3YIpENcGEzmvEZFqCDZyga3-PkPQl8BpA4_oWnzZAoKY5vmjAEayOxmjkUsNdZp0imgY9UrYqHiiZDfrUTOQzxz7mTfBash9wBYJdTBA7mOodZgsKFqnxvDB56TArjxHy0MLgSBeCTjJBD9MY6YU642ZcB0tkGluHFPwI1d8zYdoAD1cmW66dNFEcs8HBmU1Hszb71Om4INyHTG1O5qbYf4JrXq2FTZS3HAyNzELVJR_EQdxX005hKzTvEQEF9J-jxedYvYN3qR_dy9HhFV7pzMID2-tgveeRVT9ScD0Qacz0qhICxXUBQkjJVLTrPenIjJYYSPAVHoAG2YTwKvpC4Z5006N0fQObhL_ua_5kEd8N8fnDJfbhNv8-Fyru04QPzC7W4v=w1200-h800-no)center no-repeat;
+background-size: cover;
+}
+#section2 {
+  background-color: #3BB69F;
+  height: 250px;
+   text-align: center;
+  width: 100%;
+
+  font-family: century gothic;
+  color: white;
+  top: 60%;
+  position: relative;
+}
+
+p1{
+   text-align: center;
+  color: white;
+      font-size: 20px;
+  padding: 20px;
+  margin: 10px;
+  position: relative;
+  top: 50px;
+   line-height: 1.5;
+}

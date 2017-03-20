@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    background-color: #3BB69F;
+
+  }
+html{
+
+  position: relative;
+}
+
+.container{
+  position: absolute;;
+  top:150px;
+  left: 600px;
+  right: 450px;
+
+width: 350px;
+}
+
+.img{
+  height:200px;
+  width: 100%;
+}
+
+.F_logo{
+  float: right;
+position: absolute;;
+  right: 130px;
+  top: -90px;
+}
+
+
+input{
+  background-color: #3BB69F;
+border: 1px solid white;
+line-height: 0;
+font-size: 17px;
+width: 100%;
+display: block;
+box-sizing: border-box;
+height: 60px;
+border-radius: 60px;
+color: white;
+letter-spacing: 0.01em;
+font-family: century gothic;
+margin: 20px;
+padding:5px 15px;
+}
+
+input[type="text"]:focus {
+border: solid 1px white;
+  box-shadow: 0 0 5px 1px white;
+}
+
+input[type="password"]:focus {
+border: solid 1px white;
+  box-shadow: 0 0 5px 1px white;
+}
+
+
+.text{
+  background: url(https://lh3.googleusercontent.com/_qXDSoZd78A3v3lt5bd5W1Y4dK_oraODi7KMbBzbY1nmNlM_LM-HV1V3ZR4ZtZ410cXC7mAz8JJ_2-elha4nS6mV7sQZs863iRdiqZGAL-6ZDXvz5wPuNtz5xjgt6LRBXiT0aY7_MDfmMnmP6qa_tTVGF6EBNb3gi-CDkYRpOrFv-pn3VOPAmMSipgZhxsKnEzoj5_xBlPepSvVi0_iJssn7Xg_pqACmGJz8NCpvb5vppD6onyoUV5AXRZ48zbe1bSvdAghTeq0-x4XDkfbm948_tmdJF5KktHP25LM2g-iGIAXBMVU_JJRzTZXhB8GylaTQ6FX89HUp5XAO9v92-5E3-vRvuI5AbSkHEDM1Z0_iljstN_6JB_Wn_hpI5vg16ifxdAnFxOo66KeEYpwLwIu7ci3wntf8b5al2XWC30ws00v7zJN7XOMmUHLUUvhAw_AKk5CDd9fPddfG2q5uG0-d7jrFyEBzP4vTv0bQUyoZ1Uk4S53rYW6wqFmQ5ukF3a75ScXpOSTTFg_t12J-IyTpyRNVeYEZ-XvCFiAS9R8-9rJm9ju4FmamK_cIGq_zGD6PJmeOnqTRkFhsFFDjiqWUoLBNrC0rGIHVLuxocFB1ov2L=w30-h37-no) no-repeat scroll 2px 0px;
+padding: 5px;
+}
+
+.pw{
+  background: url(https://lh3.googleusercontent.com/qczG0RnTHoWoRO_hEBnyeVr9JWedKqpXY7FUjrogtnYQGsrQ-OA4kS45sih2PN-LznwsLWY3pDJd3SBBKZ-uCYowDn2rP-Do5FXZtJHxKqzHCf1jXiZE_PIaMXz15d_htLqI6wUzPN_SwNNEhsUH9HyC8NGnmn_ez41u0QdPSc4SZzgPQ5hK47P8q0eJpeN42eyl-Fp1ew8U8h8w_FYrcnjo4fL0at4bEcNQTrqn9KZD4vr--42Tl79sKLeEIi7326OirFsmhowb57Mg3HN2z-W8OJK5qRucuCBK7WBqPMC00ctKAlhz8i4Haqqirz8GbnBL6wF93qe_85f52PxV1i4uE4kyhTniewlu9D2pAYgoIDmRxHeOv7SnL6w1R42pUbiDRqSeGdLhVkWsWs5duX29oy51t3lXUv7mW_70hGsm1XbVjJUR3kvpa_iKzC7Q2kYvnfczWRpMHj9_rTIQs0AteW0zoM8zZIK0N6GdQgMF3X_VwRgtWWredGiCUoa2EhWK6A8Tx81vrMGrNsTKf06Y_AZp4xj3gQN0-X9O66S8KEFQM38R7HqrBERfph1Tc82RAEVwAhR7zpVCeiI8rxVcBX1p7p_K6ghM_oRaHgdRZf7pER9h=w34-h42-no) no-repeat scroll 2px 2px;
+padding:5px;
+}
+
+button {
+    background-color: #E73A62;
+    color: white;
+    padding: 17px 20px;
+    border: none;
+    cursor: pointer;
+    width: 340px;
+  border-radius: 25px;
+  font-size: 20px;
+  position: relative;
+  margin: 2px;
+
+}
+
+.forget{
+    text-decoration: none;
+    color: white;
+    font-family: century gothic;
+  padding: 20px;
+  text-align: center;
+  position:absolute;
+  left: 80px;
+}
+
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+
+
+
+::-webkit-input-placeholder { /* Chrome */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: white;
+  opacity: 1;
+}

@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+.section1{
+   width: 50%;
+    display: block;
+     height: 100vh;
+  background-color: #3BB69F;
+   position: relative;
+  float: left;
+
+}
+img{
+  float: right;
+   position: absolute;
+    top: 130px;
+    right: -130px;
+
+}
+p1{
+  float: right;
+   position: absolute;
+    top: 320px;
+    right: 20px;
+  font-size: 100px;
+  font-family: century gothic;
+   font-weight: 900;
+  color: white;
+  margin-left: 10px;
+}
+.section2{
+  width: 50%;
+  display: block;
+   height: 100vh;
+   color: #FFFFFF;
+  float: right;
+  position: relative;
+}
+
+p2{
+    top: 320px;
+    left: 20px;
+  floar: left;
+     position: absolute;
+  font-size: 100px;
+  font-family: century gothic;
+color: #3BB69F;
+   font-weight: 900;
+
+}
+.buttom{
+  width: 350px;
+  float: right;
+   position: absolute;
+    top: 330px;
+    right: 280px;
+}
+
+#button1{
+  margin: auto;
+    width: 30%;
+    margin-left: inherit;
+    padding: 8px;
+  background-color:#3BB69F;
+  height:30px;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  position: relative;
+  top: 120px;
+  left: -60px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+    border: 1px solid #3BB69F;
+    font-family: century gothic;
+}
+
+
+
+#button1:hover {
+    background-color: white;
+    color: #3BB69F;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+
+}
+
+#button2{
+  border-radius: 4px;
+    margin: auto;
+    width: 30%;
+  text-decoration: none;
+    padding: 8px;
+  background-color: white;
+  height: 30px;
+  color: #3BB69F;
+position: relative;
+  top: 120px;
+  left: -60px;
+    border: 1px solid #3BB69F;
+    font-family: century gothic;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+#button2:hover {
+    background-color: #3BB69F;
+    color: white;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}

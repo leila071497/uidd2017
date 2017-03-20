@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h{
+  font-size: 70px;
+  font-family: century gothic;
+  color: #3BB69F;
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+top: 10px;
+}
+
+a{
+  font-size: 30px;
+  font-family: century gothic;
+   position: relative;
+  left: 50px;
+  top: 10px;
+
+}
+.container {
+    position: relative;
+}
+.topleft {
+    position: absolute;
+    top: 250px;
+    left: 160px;
+    font-size: 50px;
+  font-family: century gothic;
+}
+
+.nav{
+  width: 100%;
+  height: 25%;
+}
+
+.white{
+  display: block;
+    width: 70%;
+  opacity: 0.5;
+  position: absolute;
+  top: -60px;
+  float: left;
+  left: -150px;
+}
+img {
+    display: block;
+    margin: auto;
+   width: 100%;
+    height: auto;
+  position: absolute;
+  top: -180px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3BB69F;
+  position: absolute;
+  width: 100%;
+  top: 610px;
+  height: 150px;
+
+}
+
+li {
+    float: left;
+  padding: 20px;
+
+}
+
+li a{
+  color: white;
+  font-family: century gothic;
+  font-size: 30px;
+  position: relative;
+  left: 50px;
+  text-decoration: none;
+}
+
+ .F_logo{
+  float: right;
+  right: 50px;
+  position: absolute;;
+  top: -300px;
+  
+}
