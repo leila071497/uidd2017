@@ -58,7 +58,8 @@ table {
 h{
   position: relative;
   top: 70px;
-    letter-spacing: 3px;
+  letter-spacing: 3px;
+  left: 1%;
 }
 
 body{
@@ -66,14 +67,16 @@ body{
 }
 
 div.gallery {
-    margin: 15px;
+    margin: 10px;
     padding: 20px;
     float: left;
     width: 100px;
   position: relative;
   top: 100px;
-  left: -10px;
+  left: -3px;
 }
+
+
 
 div.desc {
     padding: 20px;
@@ -83,7 +86,7 @@ div.desc {
   float: left;
 position: relative;
   top: -100px;
-  left: 520px;
+  left: 515px;
 }
 
 div.desc1 {
@@ -96,6 +99,18 @@ position: relative;
   top: -100px;
   left: 510px;
 }
+
+div.desc2 {
+    padding: 20px;
+    text-align: center;
+  color: white;
+  font-family: century gothic;
+  float: left;
+position: relative;
+  top: -100px;
+  left: 520px;
+}
+
 
 div.sec{
  padding: 20px;
@@ -116,7 +131,7 @@ div.sec1{
   float: left;
 position: relative;
   top: 30px;
-  left: 70px;
+  left: 68px;
 }
 
 div.sec2{
@@ -127,7 +142,7 @@ div.sec2{
   float: left;
 position: relative;
   top: 30px;
-  left: 65px;
+  left: 55px;
 }
 div.gallery img {
     width: 200px;
@@ -144,7 +159,7 @@ div.gallery img {
     float: left;
     width: 100px;
   position: relative;
-  left: -50px;
+  left: -30px;
   top: 150px
 }
 

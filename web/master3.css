@@ -84,12 +84,6 @@ a{
   position: relative;
 }
 
-.F_logo{
-  position: absolute;
-  float: right;;
-  right: 50px;
-  top: -800px;
-}
 .white{
   display: block;
     width: 70%;
@@ -161,9 +155,11 @@ li a{
 }
 
  .F_logo{
-  float: right;
-  right: 50px;
+  float: left;
+  left: 80%;
   position: absolute;;
-  top: -300px;
+  top: 30%;
+  width:15%;
+  height: 93%;
 
 }

@@ -65,7 +65,7 @@ body{
     background-color: #3BB69F;
     border-radius: 20px;
     position: absolute;
-    left: 90%;
+    left: 80%;
       border: 1px solid grey
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 top: 250px;
@@ -81,7 +81,7 @@ button{
   border-radius: 4px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-    border: 2px solid #3BB69F;
+    border: 1px solid #3BB69F;
     font-family: century gothic;
 }
 
@@ -97,6 +97,14 @@ p{
   position: absolute;
   top: 350px;
   left: 45%;
+  font-size: 20px;
+  font-fmaily: century gothic;
+}
+
+p:hover, p:active {
+  font-size: 150%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 .hi {
     width: 130px;
@@ -106,7 +114,8 @@ p{
                         animation: play 2s steps(6) infinite alternate;
    position:absolute;
    left: 43%;
-
+-webkit-animation-direction： alternate
+-webkit-animation-timing-function：ease;
 }
 
 

@@ -88,10 +88,8 @@ i{
   left: 410px;
   position: relative;
   top: 100px;
-
-
-
 }
+
 
 
 .container{
@@ -152,6 +150,29 @@ border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
 
+
+input[type="subject"]:focus {
+border: solid 1px white;
+  box-shadow: 0 0 5px 1px white;
+}
+
+
+input[type="name"]:focus {
+border: solid 1px white;
+  box-shadow: 0 0 5px 1px white;
+}
+
+
+input[type="email"]:focus {
+border: solid 1px white;
+  box-shadow: 0 0 5px 1px white;
+}
+
+
+input[type="message"]:focus {
+border: solid 1px white;
+  box-shadow: 0 0 5px 1px white;
+}
 
 #button1{
   margin: auto;
