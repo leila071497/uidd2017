@@ -67,8 +67,8 @@ img{
    position: absolute;
     top: -10px;
     right: -170px;
-
 }
+
 p1{
   float: right;
    position: absolute;
@@ -96,9 +96,9 @@ p2{
   font-size: 160px;
   font-family: century gothic;
 color: #3BB69F;
-
-
 }
+
+
 .button{
   width: 450px;
   float: right;
@@ -106,6 +106,7 @@ color: #3BB69F;
     top: 380px;
     right: 120px;
 }
+
 
 #button1{
   margin: auto;

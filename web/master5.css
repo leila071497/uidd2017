@@ -63,6 +63,8 @@ ul{
 
 }
 
+
+
 #navlist {
     position: relative;
     height: 50px;
@@ -154,4 +156,14 @@ width: 400px;
   top: 50px;
   right: -100px;
   position: absolute;
+  -webkit-animation: hand 3s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+    animation: hand 3s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes hand {
+  0% { right:-100px; top:40px;}
+    25%  { right:-100px; top:50px;}
+    50%  {right:-100px; top:60px;}
+    75%  { right:-100px; top:70px;}
+    100% { right:-100px; top:80px;}
 }
