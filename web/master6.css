@@ -48,8 +48,9 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 .icon{
-   text-align: center;
+  text-align: center;
   font-family: century gothic;
   color: white;
   font-size: 40px;
@@ -67,86 +68,84 @@ body{
 }
 
 div.gallery {
-    margin: 10px;
-    padding: 20px;
-    float: left;
-    width: 100px;
+  margin: 10px;
+  padding: 20px;
+  float: left;
+  width: 100px;
   position: relative;
   top: 100px;
   left: -3px;
 }
 
-
-
 div.desc {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
   color: white;
   font-family: century gothic;
   float: left;
-position: relative;
+  position: relative;
   top: -100px;
   left: 515px;
 }
 
 div.desc1 {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
   color: white;
   font-family: century gothic;
   float: left;
-position: relative;
+  position: relative;
   top: -100px;
   left: 510px;
 }
 
 div.desc2 {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
   color: white;
   font-family: century gothic;
   float: left;
-position: relative;
+  position: relative;
   top: -100px;
   left: 520px;
 }
 
-
 div.sec{
- padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
   color: white;
   font-family: century gothic;
   float: left;
-position: relative;
+  position: relative;
   top: 25px;
   left: 45px;
 }
 
 div.sec1{
- padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
   color: white;
   font-family: century gothic;
   float: left;
-position: relative;
+  position: relative;
   top: 30px;
   left: 68px;
 }
 
 div.sec2{
- padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
   color: white;
   font-family: century gothic;
   float: left;
-position: relative;
+  position: relative;
   top: 30px;
   left: 55px;
 }
+
 div.gallery img {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
   position: relative;
   float: left;
   left: 470px;
@@ -158,23 +157,25 @@ img {
   -webkit-transition: -webkit-transform .8s ease-in-out;
           transition:         transform .8s ease-in-out;
 }
+
 img:hover {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
+
 .second{
-   margin: 10px;
-    padding: 20px;
-    float: left;
-    width: 100px;
+  margin: 10px;
+  padding: 20px;
+  float: left;
+  width: 100px;
   position: relative;
   left: -30px;
   top: 150px
 }
 
 .second img{
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
   position: relative;
   float: left;
   left: 15px;
@@ -182,12 +183,12 @@ img:hover {
 }
 
 footer{
-    padding: 1em;
-    height: 15px;
-    background-color: white;
-    clear: left;
+  padding: 1em;
+  height: 15px;
+  background-color: white;
+  clear: left;
   position: absolute;
- top:675px;
+  top:675px;
   width: 100%;
 }
 

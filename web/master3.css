@@ -56,26 +56,38 @@ h{
   font-weight: bold;
   position: relative;
   left: 50px;
-top: 20px;
+ top: 20px;
 }
 
 a{
   font-size: 30px;
   font-family: century gothic;
-   position: relative;
+  position: relative;
   left: 50px;
   top: 20px;
-
 }
+
 .container {
     position: relative;
 }
+
+.F_logo{
+ float: left;
+ left: 80%;
+ position: absolute;;
+ top: 30%;
+ width:15%;
+ height: 100%;
+}
+
 .topleft {
-    position: absolute;
-    top: 250px;
-    left: 160px;
-    font-size: 50px;
+  position: absolute;
+  top: 250px;
+  left: 160px;
+  font-size: 50px;
   font-family: century gothic;
+  letter-spacing: 3px;
+  line-height: 1.1;
 }
 
 .nav{
@@ -86,39 +98,48 @@ a{
 
 .white{
   display: block;
-    width: 70%;
+  width: 70%;
   opacity: 0.5;
   position: absolute;
   top: -60px;
   float: left;
   left: -150px;
+  -webkit-animation: white 4s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
+  animation: white 4s linear 2s infinite alternate;
 }
+
+@-webkit-keyframes white {
+  0% {opacity: 0.25; left:-160px; top:-60px;}
+  25%  {opacity: 0.5; left:-180px; top:-60px;}
+  50%  {opacity: 0.75; left:-200px; top:-60px;}
+  75%  {opacity: 0.8; left:-220px; top:-60px;}
+  100% {opacity: 0.8; left:-240px; top:-60px;}
+}
+
 img {
-    display: block;
-    margin: auto;
-   width: 100%;
-    height: auto;
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
   position: absolute;
   top: -180px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #3BB69F;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3BB69F;
   position: absolute;
   width: 100%;
   top: 610px;
   height: 150px;
-
 }
 
 li {
-    float: left;
+  float: left;
   padding: 30px;
-
 }
 
 li a{
@@ -130,14 +151,12 @@ li a{
   text-decoration: none;
 }
 
-
 #finance{
   position:absolute;
   top: 10px;
   left: 100px;
   float:left;
 }
-
 
 #tech{
   position:absolute;
@@ -146,34 +165,9 @@ li a{
   float:left;
 }
 
-
 #entertainment{
   position:absolute;
   top: 10px;
   left: 430px;
   float:left;
-}
-
- .F_logo{
-  float: left;
-  left: 80%;
-  position: absolute;;
-  top: 30%;
-  width:15%;
-  height: 93%;
-
-}
-
-
-@-webkit-keyframes white {
-  0% {opacity: 0.25; left:-160px; top:-60px;}
-    25%  {opacity: 0.5; left:-180px; top:-60px;}
-    50%  {opacity: 0.75; left:-200px; top:-60px;}
-    75%  {opacity: 0.8; left:-220px; top:-60px;}
-    100% {opacity: 0.8; left:-240px; top:-60px;}
-}
-
-.white{
-  -webkit-animation: white 4s linear 2s infinite alternate; /* Safari 4.0 - 8.0 */
-    animation: white 4s linear 2s infinite alternate;
 }

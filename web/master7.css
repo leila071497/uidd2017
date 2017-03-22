@@ -51,62 +51,10 @@ table {
 
 body{
   position: relative;
-
-}
-
-#myProgress {
-    width: 40%;
-    background-color: white;
-    position: relative;
-}
-#myBar {
-    width: 20%;
-    height: 30px;
-    background-color: #3BB69F;
-    border-radius: 20px;
-    position: absolute;
-    left: 80%;
-      border: 1px solid grey
-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-top: 250px;
-}
-
-button{
-  position: absolute;
-  top: 400px;
-  left: 45%;
-  background-color:#3BB69F;
-  height:30px;
-  color: white;
-  border-radius: 4px;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-    border: 1px solid #3BB69F;
-    font-family: century gothic;
 }
 
 
-button:hover {
-    background-color: white;
-    color: #3BB69F;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
-}
-
-p{
-  position: absolute;
-  top: 350px;
-  left: 45%;
-  font-size: 20px;
-  font-fmaily: century gothic;
-}
-
-p:hover, p:active {
-  font-size: 150%;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
-.hi {
+.animation {
     width: 130px;
     height: 200px;
     background-image: url("https://lh3.googleusercontent.com/gfG-L6HmkVY7SW-Q2fyAhS89hUFLnAtVkA-7ppJHBDKfVQVOQOOOvOIbBjZUOhSBlEDXzLvVnSCsZDYAxOVLacvHAXZ3F-cbC0KpMi-ojyp16D5mqx4zXsvu0tKMtpYqsZttSHu_nwbOVgi7zpjJorBuZnDmaR0HHVEMvRbUn_3FTGRP62cU-uSQSWaIAXfqMlNvTGIpEPbVGsrEPvGyfONOiWWRn-L_iwUbLLYV48CbvEJDj9jukAk2uNBxtCtSEgeFcrsCTbTMIqnKr22aDrSVJKOEAxT4JqP3_4k-irKfWvXc_s4unFl4ETs6-b9TQuZ8etxLjiWoVIJloxOOey-zza5jGc0r6Az9cu3X_geSr3cmuzfHoqhE5DTXLYkVgKOl-AYIm1i1nLq6XhffTCjwg8ZCVVfrHAchm_XoVvvKRrmwSvXlxx2Fg5nPY515uqIR26skE_8HeTQSuWepmFnOITQjYcfSx6pXDoMih5l5lafY8jltFkV7r4yZH8scu39DXIfTwO1yuiQY0ZJ2JXp7Brru3jV3z775w76LKNtUDjDYl8ArGdDtb9hpZ2UArfth2Vd4tGWrkwGokCAy45PkurG3KkSZcbPgLBWX7ILbnsm2W4OV=w960-h161-no") ;
@@ -114,11 +62,9 @@ p:hover, p:active {
                         animation: play 2s steps(6) infinite alternate;
    position:absolute;
    left: 43%;
--webkit-animation-direction： alternate
--webkit-animation-timing-function：ease;
+   -webkit-animation-direction： alternate
+   -webkit-animation-timing-function：ease;
 }
-
-
 
 @-webkit-keyframes play {
    from { background-position:    0px; }
@@ -128,4 +74,57 @@ p:hover, p:active {
 @keyframes play {
    from { background-position:    0px; }
      to { background-position: -4800px; }
+}
+
+
+#myProgress {
+  width: 40%;
+  background-color: white;
+  position: relative;
+}
+
+#myBar {
+  width: 20%;
+  height: 30px;
+  background-color: #3BB69F;
+  border-radius: 20px;
+  position: absolute;
+  left: 80%;
+  border: 1px solid grey
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  top: 250px;
+}
+
+button{
+  position: absolute;
+  top: 400px;
+  left: 46%;
+  background-color:#3BB69F;
+  height:30px;
+  color: white;
+  border-radius: 4px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 1px solid #3BB69F;
+  font-family: century gothic;
+}
+
+button:hover {
+  background-color: white;
+  color: #3BB69F;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+p{
+  position: absolute;
+  top: 350px;
+  left: 46%;
+  font-size: 20px;
+  font-fmaily: century gothic;
+}
+
+p:hover, p:active {
+  font-size: 150%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }

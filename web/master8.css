@@ -48,28 +48,31 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+
 body{
   background-color: #3BB69F;
 }
+
 .contact{
-   width: 800px;
+  width: 800px;
   position: relative;
-    left: 400px;
-    top: 60px;
+  left: 400px;
+  top: 60px;
 }
+
 h{
-   font-size: 70px;
+  font-size: 70px;
   font-family: century gothic;
   color: white;
   margin: 10px;
 }
 
 p{
-   font-family: century gothic;
+  font-family: century gothic;
   color: white;
   font-size: 20px;
   margin: 10px;
-   position: relative;
+  position: relative;
   top: 10px;
 }
 
@@ -79,7 +82,6 @@ p1{
   margin: 10px;
   position: relative;
   top: 20px;
-
 }
 
 i{
@@ -90,29 +92,24 @@ i{
   top: 100px;
 }
 
-
-
 .container{
   width: 400px;
   height: 250px;
   position: relative;
-    left: 800px;
-    top: 40px;
-
+  left: 800px;
+  top: 40px;
 }
+
 input[type=name], input[type=email] , input[type=subject] {
-
-
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-  border: 1px solid white;
+    border: 1px solid white;
     box-sizing: border-box;
-  border-radius: 8px;
-  background-color: #99ccff;
+    border-radius: 8px;
+    background-color: #99ccff;
     font-family: century gothic;
-
 }
 
 input[type=message]
@@ -123,107 +120,101 @@ input[type=message]
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  border-radius: 8px;
-  background-color: #99ccff;
+    border-radius: 8px;
+    background-color: #99ccff;
     font-family: century gothic;
- height: 150px;
-
+    height: 150px;
 }
 
 input[type=subject]:hover {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
 
 input[type=name]:hover {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
 
 input[type=message]:hover {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
 
 input[type=email]:hover {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
-
 
 input[type="subject"]:focus {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
-
 
 input[type="name"]:focus {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
-
 
 input[type="email"]:focus {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
 
-
 input[type="message"]:focus {
-border: solid 1px white;
+  border: solid 1px white;
   box-shadow: 0 0 5px 1px white;
 }
 
 #button1{
   margin: auto;
-    width: 30%;
-    border: 1px solid #ff471a;
-    padding: 5px;
+  width: 30%;
+  border: 1px solid #ff471a;
+  padding: 5px;
   background-color: #ff471a;
   height:30px;
   border-radius: 8px;
-   color: white;
-    font-family: century gothic;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+  color: white;
+  font-family: century gothic;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 #button1:hover {
-    background-color: #3BB69F;
-    color: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-    border: 1px solid white;
- box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #3BB69F;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  border: 1px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-
 #button2{
-    margin: 10px;
-    width: 30%;
-    border: 1px solid #ff471a;
-    padding: 5px;
+  margin: 10px;
+  width: 30%;
+  border: 1px solid #ff471a;
+  padding: 5px;
   background-color: #ff471a;
   height: 30px;
   border-radius: 8px;
-   color: white;
-    font-family: century gothic;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+ color: white;
+  font-family: century gothic;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 #button2:hover {
-    background-color: #3BB69F;
-    color: white;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-      border: 1px solid white;
-       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #3BB69F;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  border: 1px solid white;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .head_buttom{
-    position: relative;
-    top: 10px;
-    right: px;
-    width: 300px;
+  position: relative;
+  top: 10px;
+  right: px;
+  width: 300px;
   }
 
 ::-webkit-input-placeholder { /* Chrome */

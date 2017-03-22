@@ -54,65 +54,64 @@ table {
 
 
 .section1{
-   width: 50%;
-    display: block;
-     height: 100vh;
+  width: 50%;
+  display: block;
+  height: 100vh;
   background-color: #3BB69F;
-   position: relative;
+  position: relative;
   float: left;
-
 }
+
 img{
   float: right;
-   position: absolute;
-    top: -10px;
-    right: -170px;
+  position: absolute;
+  top: -10px;
+  right: -170px;
 }
 
 p1{
   float: right;
-   position: absolute;
-    top: 250px;
-    right: 20px;
+  position: absolute;
+  top: 250px;
+  right: 20px;
   font-size: 160px;
   font-family: century gothic;
   color: white;
   margin-left: 10px;
 }
+
 .section2{
   width: 50%;
   display: block;
-   height: 100vh;
-   color: #FFFFFF;
+  height: 100vh;
+  color: #FFFFFF;
   float: right;
   position: relative;
 }
 
 p2{
-    top: 250px;
-    left: 20px;
+  top: 250px;
+  left: 20px;
   floar: left;
-     position: absolute;
+  position: absolute;
   font-size: 160px;
   font-family: century gothic;
-color: #3BB69F;
+  color: #3BB69F;
 }
-
 
 .button{
   width: 450px;
   float: right;
-   position: absolute;
-    top: 380px;
-    right: 120px;
+  position: absolute;
+  top: 380px;
+  right: 120px;
 }
-
 
 #button1{
   margin: auto;
-    width: 30%;
-    margin:auto;;
-    padding: 6px;
+  width: 30%;
+  margin:auto;;
+  padding: 6px;
   background-color:#3BB69F;
   height:30px;
   color: white;
@@ -123,40 +122,36 @@ color: #3BB69F;
   left: -60px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-    border: 2px solid #3BB69F;
-    font-family: century gothic;
+  border: 2px solid #3BB69F;
+  font-family: century gothic;
 }
 
-
-
 #button1:hover {
-    background-color: white;
-    color: #3BB69F;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
+  background-color: white;
+  color: #3BB69F;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
 
 #button2{
   border-radius: 4px;
-    margin: auto;
-    width: 30%;
+  margin: auto;
+  width: 30%;
   text-decoration: none;
-    padding: 6px;
+  padding: 6px;
   background-color: white;
   height: 30px;
   color: #3BB69F;
-position: relative;
+  position: relative;
   top: 120px;
   left: -60px;
-    border: 2px solid #3BB69F;
-    font-family: century gothic;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-
+  border: 2px solid #3BB69F;
+  font-family: century gothic;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
 
 #button2:hover {
-    background-color: #3BB69F;
-    color: white;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+  background-color: #3BB69F;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
 }
