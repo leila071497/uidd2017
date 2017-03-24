@@ -57,7 +57,7 @@ body{
 .animation {
     width: 130px;
     height: 200px;
-    background-image: url("https://lh3.googleusercontent.com/gfG-L6HmkVY7SW-Q2fyAhS89hUFLnAtVkA-7ppJHBDKfVQVOQOOOvOIbBjZUOhSBlEDXzLvVnSCsZDYAxOVLacvHAXZ3F-cbC0KpMi-ojyp16D5mqx4zXsvu0tKMtpYqsZttSHu_nwbOVgi7zpjJorBuZnDmaR0HHVEMvRbUn_3FTGRP62cU-uSQSWaIAXfqMlNvTGIpEPbVGsrEPvGyfONOiWWRn-L_iwUbLLYV48CbvEJDj9jukAk2uNBxtCtSEgeFcrsCTbTMIqnKr22aDrSVJKOEAxT4JqP3_4k-irKfWvXc_s4unFl4ETs6-b9TQuZ8etxLjiWoVIJloxOOey-zza5jGc0r6Az9cu3X_geSr3cmuzfHoqhE5DTXLYkVgKOl-AYIm1i1nLq6XhffTCjwg8ZCVVfrHAchm_XoVvvKRrmwSvXlxx2Fg5nPY515uqIR26skE_8HeTQSuWepmFnOITQjYcfSx6pXDoMih5l5lafY8jltFkV7r4yZH8scu39DXIfTwO1yuiQY0ZJ2JXp7Brru3jV3z775w76LKNtUDjDYl8ArGdDtb9hpZ2UArfth2Vd4tGWrkwGokCAy45PkurG3KkSZcbPgLBWX7ILbnsm2W4OV=w960-h161-no") ;
+    background-image: url("move_logo.gif") ;
                 -webkit-animation: play 2s steps(6) infinite alternate;
                         animation: play 2s steps(6) infinite alternate;
    position:absolute;
