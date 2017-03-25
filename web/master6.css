@@ -184,7 +184,7 @@ img:hover {
 
 footer{
   padding: 1em;
-  height: 15px;
+  height: 40px;
   background-color: white;
   clear: left;
   position: absolute;
@@ -194,7 +194,7 @@ footer{
 
 .F_logo{
   float: right;
-  right: 370px;
-  position: relative;
-  bottom: 265px;
+  right: 47%;
+  position: absolute;;
+  bottom:-4%;
 }

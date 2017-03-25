@@ -55,9 +55,9 @@ body{
 
 .F_logo{
   float: right;
-  right: 950px;
+  right: 85%;
   position: relative;
-  top: -245px;
+  top: -10%;
 }
 
 li {
@@ -152,11 +152,11 @@ p{
 
 .title1{
   width: 400px;
-  padding: 100px;
+  padding:100px;
   float: right;
-  position: relative;
-  right: -100px;
-  top: 200px;
+  position: absolute;;
+  right: 55%;
+  top: 30%;
 }
 
 .hand{
